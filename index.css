@@ -1,0 +1,80 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(135deg, #2c2e31, #323437);
+	color: #cbcac1;
+}
+
+.container {
+	text-align: center;
+	background: #2c2e31;
+	color: #e2b714;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+	font-size: 2rem;
+	margin-bottom: 30px;
+	color: #e2b714;
+}
+
+.logintext {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+	color: #cbcac1;
+}
+
+input {
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	width: 90%;
+	border: 1.5px solid #646669;
+	color: #cbcac1;
+	background-color: #323437;
+	border-radius: 5px;
+	font-size: 1rem;
+	transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+	outline: none;
+	border-color: #e2b714;
+	box-shadow: 0 0.2px 5px #e2b714;
+}
+
+button {
+	padding: 12px 24px;
+	background-color: #646669;
+	color: #cbcac1;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+	font-size: 1rem;
+	transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+	background-color: #e2b714;
+	color: #323437;
+}
+
+.error-message {
+	font-weight: normal;
+	font-family: Arial, sans-serif;
+	color: #ff0000;
+	opacity: 0;
+	transform: scale(0.9);
+	padding-top: 20px;
+	transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.error-message.show {
+	opacity: 1;
+	transform: scale(1);
+}

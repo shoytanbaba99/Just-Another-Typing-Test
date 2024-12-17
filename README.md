@@ -1,3 +1,3 @@
 Begin by running index.html
 
-username:passs = user:pass123
+username:passs = shoytanbaba:Goribmanush

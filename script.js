@@ -15,8 +15,8 @@ document.querySelector(".loginbtn").addEventListener("click", () => {
 	const password = document.querySelector(".password");
 	const errorMessage = document.querySelector(".error-message");
 
-	const validUsername = "a";
-	const validPassword = "12";
+	const validUsername = "shoytanbaba";
+	const validPassword = "Goribmanush";
 
 	if (username.value === validUsername && password.value === validPassword) {
 		errorMessage.classList.remove("show");
